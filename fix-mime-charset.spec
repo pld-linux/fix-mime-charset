@@ -2,12 +2,12 @@ Summary:	Fix incorrect charset information in Content-Type MIME headers of e-mai
 Summary(pl):	Poprawianie niepoprawnych informacji o kodowaniu w nagЁСwkach pocztowych MIME
 Summary(ru):	Исправляет некорректную информацию в MIME-заголовках e-mail сообщений
 Name:		fix-mime-charset
-Version:	0.5.0
+Version:	0.5.1
 Release:	1
 License:	GPL v2+
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/fix-mime-chr/%{name}-%{version}.tar.gz
-# Source0-md5:	4afe799e153d01a8bae73134df70524e
+# Source0-md5:	6a754e83b0ec4c0a363d4814d101e7bb
 URL:		http://fix-mime-chr.sourceforge.net/
 BuildRequires:	enca-devel >= 0.99.4
 BuildRequires:	libstdc++-devel
