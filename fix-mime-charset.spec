@@ -1,12 +1,12 @@
-Name:		fix-mime-charset
 Summary:	Fix incorrect charset information in Content-Type MIME headers of e-mail messages
 Summary(pl):	Poprawianie niepoprawnych informacji o kodowaniu w nagЁСwkach pocztowych MIME
 Summary(ru):	Исправляет некорректную информацию в MIME-заголовках e-mail сообщений
+Name:		fix-mime-charset
 Version:	0.3.1
 Release:	1
-License:	GPL v.2
+License:	GPL v2+
 Group:		Applications/Mail
-Source0:	http://dl.sourceforge.net/sourceforge/fix-mime-chr/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/fix-mime-chr/%{name}-%{version}.tar.gz
 # Source0-md5:	93318ea360d85f538fe70dac1cda39d0
 URL:		http://fix-mime-chr.sourceforge.net/
 BuildRequires:	autoconf
@@ -28,7 +28,7 @@ Content-Type. Mo©e byФ wykorzystany jako filtr pocztowy w listach
 mailowych, gdzie u©ytkownicy czЙsto nieprawidЁowo ustawiaj╠ w
 nagЁСwkach u©ywane przez siebie kodowanie. Szybko i skutecznie
 przetwarza wiadomo╤ci, ignoruje zaЁ╠czniki i poprawnie interpretuje
-kodowanie podczas transferu.  Nie zmienia nic poza nagЁСwkiem
+kodowanie podczas transferu. Nie zmienia nic poza nagЁСwkiem
 Content-Type.
 
 %description -l ru_RU.KOI8-R
@@ -52,7 +52,7 @@ Fix-mime-charset автоматически определяет кодировку почтового сообщения
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
@@ -61,6 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog INSTALL COPYING README README.koi8r
+%doc ChangeLog README
+%lang(ru) %doc README.koi8r
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
