@@ -1,6 +1,6 @@
 Name:		fix-mime-charset
 Summary:	Fix incorrect charset information in Content-Type MIME headers of e-mail messages
-Summary(pl):	Popraw niepoprawne informacje o kodowaniu w nag³ówkach maili MIME
+Summary(pl):	Poprawianie niepoprawnych informacji o kodowaniu w nag³ówkach pocztowych MIME
 Summary(ru):	éÓĞÒÁ×ÌÑÅÔ ÎÅËÏÒÒÅËÔÎÕÀ ÉÎÆÏÒÍÁÃÉÀ × MIME-ÚÁÇÏÌÏ×ËÁÈ e-mail ÓÏÏÂİÅÎÉÊ
 Version:	0.3.1
 Release:	1
@@ -22,13 +22,14 @@ ignoring attachments, and correctly interprets transfer-encodings.
 None but the Content-Type header is changed.
 
 %description -l pl
-Fix-mime-charset automatycznie wykrywa u¿yty zestaw kodowania w
-wiadomo¶ciach pocztowych i modyfikuje odpowiednio nag³ówek Content-Type.
-Mo¿e byæ wykorzystany jako filtr pocztowy w listach mailowych gdzie
-u¿ytkownicy czêsto u¿ywaj± nieprawid³owo kodowania w nag³ówkach. Szybko
-i skutecznie przetwarza wiadomo¶ci, ignoruje za³±czniki i poprawnie
-interpretuje kodowanie podczas transferu. 
-Nie zmienia nic poza nag³ówkiem Content-Type.
+Fix-mime-charset automatycznie wykrywa u¿yte kodowanie znaków w
+wiadomo¶ciach pocztowych i modyfikuje odpowiednio nag³ówek
+Content-Type. Mo¿e byæ wykorzystany jako filtr pocztowy w listach
+mailowych, gdzie u¿ytkownicy czêsto nieprawid³owo ustawiaj± w
+nag³ówkach u¿ywane przez siebie kodowanie. Szybko i skutecznie
+przetwarza wiadomo¶ci, ignoruje za³±czniki i poprawnie interpretuje
+kodowanie podczas transferu.  Nie zmienia nic poza nag³ówkiem
+Content-Type.
 
 %description -l ru_RU.KOI8-R
 Fix-mime-charset Á×ÔÏÍÁÔÉŞÅÓËÉ ÏĞÒÅÄÅÌÑÅÔ ËÏÄÉÒÏ×ËÕ ĞÏŞÔÏ×ÏÇÏ ÓÏÏÂİÅÎÉÑ
