@@ -32,7 +32,7 @@ przetwarza wiadomo╤ci, ignoruje zaЁ╠czniki i poprawnie interpretuje
 kodowanie podczas transferu. Nie zmienia nic poza nagЁСwkiem
 Content-Type.
 
-%description -l ru_RU.KOI8-R
+%description -l ru
 Fix-mime-charset автоматически определяет кодировку почтового сообщения
 и изменяет соответствующим образом поле Content-Type в заголовке. Может
 использоваться как фильтр сообщений в списках рассылки, где пользователи
