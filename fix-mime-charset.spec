@@ -1,6 +1,6 @@
 Summary:	Fix incorrect charset information in Content-Type MIME headers of e-mail messages
-Summary(pl.UTF-8):   Poprawianie niepoprawnych informacji o kodowaniu w nagłówkach pocztowych MIME
-Summary(ru.UTF-8):   Исправляет некорректную информацию в MIME-заголовках e-mail сообщений
+Summary(pl.UTF-8):	Poprawianie niepoprawnych informacji o kodowaniu w nagłówkach pocztowych MIME
+Summary(ru.UTF-8):	Исправляет некорректную информацию в MIME-заголовках e-mail сообщений
 Name:		fix-mime-charset
 Version:	0.5.3
 Release:	1
