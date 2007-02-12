@@ -1,6 +1,6 @@
 Summary:	Fix incorrect charset information in Content-Type MIME headers of e-mail messages
-Summary(pl):	Poprawianie niepoprawnych informacji o kodowaniu w nagЁСwkach pocztowych MIME
-Summary(ru):	Исправляет некорректную информацию в MIME-заголовках e-mail сообщений
+Summary(pl.UTF-8):   Poprawianie niepoprawnych informacji o kodowaniu w nagе┌цЁwkach pocztowych MIME
+Summary(ru.UTF-8):   п≤я│п©я─п╟п╡п╩я▐п╣я┌ п╫п╣п╨п╬я─я─п╣п╨я┌п╫я┐я▌ п╦п╫я└п╬я─п╪п╟я├п╦я▌ п╡ MIME-п╥п╟пЁп╬п╩п╬п╡п╨п╟я┘ e-mail я│п╬п╬п╠я┴п╣п╫п╦п╧
 Name:		fix-mime-charset
 Version:	0.5.3
 Release:	1
@@ -22,24 +22,24 @@ messages incorrectly. It processes messages fast and accurately,
 ignoring attachments, and correctly interprets transfer-encodings.
 None but the Content-Type header is changed.
 
-%description -l pl
-Fix-mime-charset automatycznie wykrywa u©yte kodowanie znakСw w
-wiadomo╤ciach pocztowych i modyfikuje odpowiednio nagЁСwek
-Content-Type. Mo©e byФ wykorzystany jako filtr pocztowy w listach
-mailowych, gdzie u©ytkownicy czЙsto nieprawidЁowo ustawiaj╠ w
-nagЁСwkach u©ywane przez siebie kodowanie. Szybko i skutecznie
-przetwarza wiadomo╤ci, ignoruje zaЁ╠czniki i poprawnie interpretuje
-kodowanie podczas transferu. Nie zmienia nic poza nagЁСwkiem
+%description -l pl.UTF-8
+Fix-mime-charset automatycznie wykrywa uе╪yte kodowanie znakцЁw w
+wiadomoе⌡ciach pocztowych i modyfikuje odpowiednio nagе┌цЁwek
+Content-Type. Moе╪e byд┤ wykorzystany jako filtr pocztowy w listach
+mailowych, gdzie uе╪ytkownicy czд≥sto nieprawidе┌owo ustawiajд┘ w
+nagе┌цЁwkach uе╪ywane przez siebie kodowanie. Szybko i skutecznie
+przetwarza wiadomoе⌡ci, ignoruje zaе┌д┘czniki i poprawnie interpretuje
+kodowanie podczas transferu. Nie zmienia nic poza nagе┌цЁwkiem
 Content-Type.
 
-%description -l ru
-Fix-mime-charset автоматически определяет кодировку почтового сообщения
-и изменяет соответствующим образом поле Content-Type в заголовке. Может
-использоваться как фильтр сообщений в списках рассылки, где пользователи
-часто неправильно указывают кодировки своих сообщений. Программа
-обрабатывает сообщения быстро и аккуратно, игнорируя вложения и
-корректно интерпретирует transfer-encodings.
-Кроме поля Content-Type ничего не изменяется.
+%description -l ru.UTF-8
+Fix-mime-charset п╟п╡я┌п╬п╪п╟я┌п╦я┤п╣я│п╨п╦ п╬п©я─п╣п╢п╣п╩я▐п╣я┌ п╨п╬п╢п╦я─п╬п╡п╨я┐ п©п╬я┤я┌п╬п╡п╬пЁп╬ я│п╬п╬п╠я┴п╣п╫п╦я▐
+п╦ п╦п╥п╪п╣п╫я▐п╣я┌ я│п╬п╬я┌п╡п╣я┌я│я┌п╡я┐я▌я┴п╦п╪ п╬п╠я─п╟п╥п╬п╪ п©п╬п╩п╣ Content-Type п╡ п╥п╟пЁп╬п╩п╬п╡п╨п╣. п°п╬п╤п╣я┌
+п╦я│п©п╬п╩я▄п╥п╬п╡п╟я┌я▄я│я▐ п╨п╟п╨ я└п╦п╩я▄я┌я─ я│п╬п╬п╠я┴п╣п╫п╦п╧ п╡ я│п©п╦я│п╨п╟я┘ я─п╟я│я│я▀п╩п╨п╦, пЁп╢п╣ п©п╬п╩я▄п╥п╬п╡п╟я┌п╣п╩п╦
+я┤п╟я│я┌п╬ п╫п╣п©я─п╟п╡п╦п╩я▄п╫п╬ я┐п╨п╟п╥я▀п╡п╟я▌я┌ п╨п╬п╢п╦я─п╬п╡п╨п╦ я│п╡п╬п╦я┘ я│п╬п╬п╠я┴п╣п╫п╦п╧. п÷я─п╬пЁя─п╟п╪п╪п╟
+п╬п╠я─п╟п╠п╟я┌я▀п╡п╟п╣я┌ я│п╬п╬п╠я┴п╣п╫п╦я▐ п╠я▀я│я┌я─п╬ п╦ п╟п╨п╨я┐я─п╟я┌п╫п╬, п╦пЁп╫п╬я─п╦я─я┐я▐ п╡п╩п╬п╤п╣п╫п╦я▐ п╦
+п╨п╬я─я─п╣п╨я┌п╫п╬ п╦п╫я┌п╣я─п©я─п╣я┌п╦я─я┐п╣я┌ transfer-encodings.
+п я─п╬п╪п╣ п©п╬п╩я▐ Content-Type п╫п╦я┤п╣пЁп╬ п╫п╣ п╦п╥п╪п╣п╫я▐п╣я┌я│я▐.
 
 %prep
 %setup -q
